@@ -67,7 +67,6 @@ func TestMongoOpertions(t *testing.T) {
 			log.Fatalf("Get Employee1 Failed  %v", err)
 		}
 		t.Log("Get Employee Sucess ", result.Name)
-
 	})
 
 	t.Run("Update Employee 1", func(t *testing.T) {
